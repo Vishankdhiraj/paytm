@@ -1,0 +1,712 @@
+body{
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: #E0F5FD;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+.logo{
+    margin-left: 300px;
+}
+.links{
+    list-style: none;
+    display: flex;
+    margin: 0px;
+}
+.links li{
+    margin-left:20px ;  
+}
+.links li a{
+    color: black;
+    text-decoration: none;
+    font-size: medium;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-colour 0.3s;
+}
+.links li a:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+.sign{
+    
+    background-color: #00FFFF;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+.sign a:hover{
+    background-color: black;
+}
+.hero1{
+      position: relative;
+      top: 70px; 
+      left: 155px;  
+}
+.bus{
+    position: absolute;
+    top: 167px;
+    left: 300px;
+}
+.int{
+    position: absolute;
+    top: 165px;
+    left: 400px;
+}
+.ghost{
+    position: absolute;
+    top: 165px;
+    left: 520px;
+
+}
+.logogo{
+    position: absolute;
+    top: 155px;
+    left: 1300px;
+}
+/*box*/
+.box{
+    width: 1500px;
+    height: 300px;
+    position: relative;
+    border: 10px;
+    background-color: white;            
+    box-shadow: rgba(9, 1, 1, 0.1);
+    top: 100px;
+    left: 20px;
+    border-radius: 10px;
+}
+.vk{
+    position: absolute;
+    top: 270px;
+    left: 180px;
+    border: 4px;
+}
+.ck{
+    position: absolute;
+    top: 270px;
+    left: 300px;
+    border: 4px;
+}
+.nk{
+    position: absolute;
+    top: 300px;
+    left: 20px;
+}
+.bnn{
+    position: absolute;
+    width: 200px;
+   height: 50px;
+   background-color: aqua;
+   color: white;
+   top: 350px;
+   left: 1300px;
+   border-radius: 10px;
+   text-align: center;
+   font-size: medium;
+}
+.bnn div {
+    text-decoration: none;
+}
+/*pic*/
+.pic{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+.pic2{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 600px;
+    left: 550px;
+}
+.pic3{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 600px;
+    left: 1000px;
+}
+.boom{
+    width: 1500px;
+    height: 400px;
+    position: relative;
+    background-color: #00BAF2;
+    color: white;
+    top: 300px;
+    left: 10px;
+}
+.boom > b{
+    position: relative;
+    top: 50px;
+    left: 100px;
+    font-size: 40px;
+    }
+    
+    .play{
+        width: 200px;
+        height: 100px;
+        position: relative;
+        background-color:#00BAF2;
+        color: white;
+        bottom: 80px;
+        left: 800px;
+    }
+    .bnb{
+        position: relative;
+        top: 90px;
+    }
+    .on{
+        width: 1600px;
+        height: 600px;
+        position: relative;
+        background-color: white;
+        top: 100px;
+        right: 20px;
+    }
+    .on > img {
+        position: relative;
+        top: 100px;
+        left: 100px;
+
+    }
+    .p{
+        color: black;
+        font-size: 50px;
+        position: relative;
+        top: 120px;
+        left: 100px;
+    }
+    .small{
+        font-size: 20px;
+        color:  black;
+        position: relative;
+        top: 120px;
+        left: 100px;
+    }
+    .apple{
+        width: 250px;
+        height: 40px;
+        background-color: black;
+        border-radius: 50px;
+        position: relative;
+        top: 120px;
+        left: 100px;
+        transition: background-colour 0.3s;
+
+    }
+    .apple >p {
+        position: relative;
+        top: 10px;
+        left: 5px;
+    }
+    .apple>img{
+        position: relative;
+        left: 162px;
+        bottom: 24px;
+    }
+    .apple p:hover{
+        background-color:grey;
+    }
+    .apple img:hover{
+        background-color: grey;
+    }
+    .vb{
+        position: relative;
+        bottom: 300px;
+        left: 1000px;
+    }
+    .line2{
+        width: 1600px;
+        height: 350px;
+        position: relative;
+        background-color:#0F4A8A;
+        color: white;
+        top: 100px;
+        right: 10px;
+    }
+    .line2 > b{
+        position: relative;
+        font-size: 30px;
+        top: 70px;
+        left: 100px;
+    }
+    .line2>img{
+        position: relative;
+        top: 100px;
+        left: 100px;
+    }
+    .line3{
+        width: 1600px;
+        height: 1000px;
+        background-color: #F5F7FA;
+        position: relative;
+        top: 100px;
+        right: 10px ;
+    }
+    .line3 > b{
+        position: relative;
+        color: black;
+        font-size: 45px;
+        top: 200px;
+        left: 100px;
+    }
+    .line4{
+        width: 1200px;
+        height: 600px;
+        background-color: white;
+        border: 3px;
+        box-shadow: rgba(9, 1, 1, 0.1);
+        border-radius: 10px;
+        position: relative;
+        bottom: 600px;
+        left: 150px;
+    }
+    .line4 > img{
+        position: relative;
+        left: 50px;
+    }
+    .line5 > b{
+        position: absolute;
+        color: black;
+        top: 1720px;
+        left: 200px;
+        font-size: 45px;
+    }
+    .line5 > p{
+        font-size: 20px;
+        color:  black;
+        position: relative;
+        bottom: 900px;
+        left: 200px;
+    }
+    .line5 > img{
+        position: relative;
+        bottom: 1300px;
+        left: 800px;
+    }
+    .line6{
+        position: relative;
+        width: 1600px;
+        height: 1000px;
+        background-color:#F5F7FA;
+        bottom: 1200px;
+        right: 10px;
+    }
+    .line7{
+        width: 500px;
+        height: 600px;
+        background-color: white;
+        border: 3px;
+        box-shadow: rgba(9, 1, 1, 0.1);
+        border-radius: 10px;
+        position: relative;
+        bottom: 2100px;
+        left: 150px;
+    }
+    .line7 > img{
+        position: relative;
+        top: 50px;
+    }
+    .mn > b{
+        position: relative;
+        color: black;
+        bottom: 2600px;
+        left: 170px;
+        font-size: 35px;
+    }
+    .mn > p{
+        font-size: 20px;
+        color:  black;
+        position: relative;
+        bottom: 2600px;
+        left: 170px;
+    }
+    .gh{
+        color: black;
+        position: relative;
+        bottom: 2600px;
+        left: 170px;
+        font-size: 10px;
+    }
+    .car{
+        position: relative;
+        top: 30px;
+    }
+    .fg{
+        width: 500px;
+        height: 600px;
+        background-color: white;
+        border: 3px;
+        box-shadow: rgba(9, 1, 1, 0.1);
+        border-radius: 10px;
+        position: relative;
+        bottom: 491px;
+        left: 650px;
+    }
+    .fg > img{
+        position: relative;
+        top: 40px;
+    }
+    .jk b{
+        position: relative;
+        color: black;
+        bottom: 3600px;
+        left: 830px;
+        font-size: 35px;
+    }
+    .jk >p{
+        font-size: 20px;
+        color:  black;
+        position: relative;
+        bottom: 3600px;
+        left: 830px;
+    }
+    .dk{
+        color: black;
+        position: relative;
+        bottom: 3600px;
+        left: 830px;
+        font-size: 10px;
+    }
+    .dk>img{
+        position: relative;
+        bottom: 5px;
+    }
+    .in{
+        width: 1600px;
+        height: 700px;
+        position: relative;
+        background-color: white;
+        bottom: 3300px;
+    }
+    .in > img{
+        position: relative;
+        top: 50px;
+        left: 70px;
+    }
+    .ew > b{
+        position: relative;
+        color: black;
+        font-size: 35px;
+        top: 100px;
+        left: 80px;
+    }
+    .toy>p{
+        position: relative;
+        font-size: 20px;
+        color: black;
+        top: 100px;
+        left: 80px;
+    }
+    .poi{
+        width: 200px;
+        height: 60px;
+        border-radius: 20px;
+        background-color: #042D72;
+        position: relative;
+        text-align: center;
+        top: 100px;
+        left: 80px;
+    }
+    .poi > p{
+        position: relative;
+        top: 18px;
+    }
+    .bike{
+        position: relative;
+        bottom: 380px;
+        left: 700px;
+    }
+    .poi p:hover{
+        background-color: #00BAF2;
+        width: 200px;
+        height: 60px;
+        border-radius: 20px;
+        position: relative;
+        top: 0px;
+        color: black;
+        text-align: center;
+        
+    }
+    .poon{
+        position: relative;
+        width: 1600px;
+        height: 600px;
+        background-color: #F6F7FB; 
+        bottom: 300px;
+    }
+    .oop> img{
+        position: relative;
+        left: 800px;
+        bottom: 500px;
+    }
+    .sta>b{
+        color: black;
+        position: relative;
+        bottom: 450px;
+        left: 800px;
+        font-size: 40px;
+    }
+    .sta >p{
+        color: black;
+        position: relative;
+        font-size: 20px;
+        bottom: 450px;
+        left: 800px;
+    }
+    .koo{
+        width: 200px;
+        height: 60px;
+        border-radius: 20px;
+        background-color: #042D72;
+        position: relative;
+        text-align: center;
+        bottom: 450px;
+        left: 800px;
+    }
+    .koo >p{
+        position: relative;
+        top: 18px;
+    }
+    .koo p:hover{
+        background-color: #00BAF2;
+        width: 200px;
+        height: 60px;
+        border-radius: 20px;
+        position: relative;
+        top: 0px;
+        color: black;
+        text-align: center;
+    }
+    .my{
+        width: 1600px;
+        height: 700px;
+        position: relative;
+        background-color: white;
+        bottom: 310px;
+    }
+    .my > b{
+        font-size: 50px ;
+        color: black;
+        position: relative;
+        top: 80px;
+        left: 100px;
+    }
+    .lol > img{
+        position: relative;
+        top: 120px;
+        left: 100px;
+    }
+    .fu > b{
+        position: relative;
+        color: black;
+        font-size: 45px;
+        top: 180px;
+        left: 100px;
+    }
+    .fu>p{
+        position: relative;
+        color: black;
+        font-size: 20px;
+        top: 180px;
+        left: 100px;
+    }
+    .nok>img{
+        position: relative;
+        left: 900px;
+        bottom: 200px;
+    }
+    .moo{
+        width: 200px;
+        height: 60px;
+        border-radius: 20px;
+        background-color: #042D72;
+        position: relative;
+        text-align: center;
+        bottom: 320px ;
+        left: 100px;
+    }
+    .moo>p{
+        position: relative;
+        top: 18px;
+    }
+    .moo p:hover{
+        background-color: #00BAF2;
+        width: 200px;
+        height: 60px;
+        border-radius: 20px;
+        position: relative;
+        top: 0px;
+        color: black;
+        text-align: center;
+    }
+    .nb{
+        width: 1600px;
+        height: 700px;
+        position: relative;
+        color: black;
+        background-color: white;
+        bottom: 310px;
+    }
+    .nb>b{
+        font-size: 45px;
+        position: relative;
+        top: 100px;
+        left: 100px;
+    }
+    .bo>b{
+        font-size: 35px;
+        position: relative;
+        top: 200px;
+        left: 100px;
+        color: black;
+
+    }
+    .mk>p{
+        position: relative;
+        top: 200px;
+        left: 100px;
+        color: black;
+        font-size: 15px;
+    }
+    .last{
+        width: 200px;
+        height: 60px;
+        border-radius: 20px;
+        background-color: #042D72;
+        position: relative;
+        text-align: center;
+        bottom: 630px;
+        left: 100px;
+    }
+    .last>p{
+        position: relative;
+        top: 18px;
+    }
+    .last p:hover{
+        background-color: #00BAF2;
+        width: 200px;
+        height: 60px;
+        border-radius: 20px;
+        position: relative;
+        top: 0px;
+        color: black;
+        text-align: center;
+    }
+    .ij >img{
+        position: relative;
+        bottom: 200px;
+        left: 900px;
+    }
+    .here{
+        width: 1600px;
+        height: 800px;
+        position: relative;
+        bottom: 400px;
+        background-color: white;
+    }
+    .nn{
+        width: 1400px;
+        height: 600px;
+        position: relative;
+        background-color: #F5F7FA;
+        top: 100px;
+        right: 500px;
+    }
+    .ko >b{
+        position: relative;
+        bottom: 400px;
+        left: 100px;
+        color: black;
+        font-size: 40px;
+
+    }
+    .ko>p{
+        position: relative;
+        bottom: 400px;
+        left: 100px;
+        color: black;
+        font-size: 20px;
+
+    }
+    .man{
+        width: 200px;
+        height: 60px;
+        border-radius: 20px;
+        background-color: #042D72;
+        position: relative;
+        text-align: center;
+        bottom: 400px;
+        left: 100px;
+    }
+    .man>p{
+        position: relative;
+        top: 18px;
+    }
+    .man p:hover{
+        background-color: #00BAF2;
+        width: 200px;
+        height: 60px;
+        border-radius: 20px;
+        position: relative;
+        top: 0px;
+        color: black;
+        text-align: center;
+    }
+    .men>img{
+        position: relative;
+        bottom: 750px;
+        left: 800px;
+    }
+    .jjk{
+        background-color: white;
+        width: 1600px;
+        height: 900px;
+        position: relative;
+        bottom: 600px;  
+    }
+    .jjk >b{
+        font-size: 40px;
+        color: black;
+        position: relative;
+        top: 100px;
+        left: 100px;
+    }
+    .nm{
+        position: relative;
+        bottom: 1250px;
+        left: 100px;
+    }
+    .vish{
+        position: relative;
+        width: 1600px;
+        height: 1200px;
+        background-color: white;
+        bottom: 1120px;
+    }
+    .vish>img{
+        position: relative;
+        left: 100px;
+    }
+    
+
+
+
+
+
+    
+  
